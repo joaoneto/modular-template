@@ -13,6 +13,9 @@
         "typescript",
         "typescriptreact"
     ],
+    "eslint.options": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+    },
     "eslint.workingDirectories": [
         {
             "mode": "auto"
@@ -20,5 +23,7 @@
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    }
+    },
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true
 }
